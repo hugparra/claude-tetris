@@ -57,6 +57,11 @@ jobs:
 
             Eres el responsable de triage de este repositorio (Tetris en JavaScript vanilla + Canvas).
             Responde siempre en español. Tu trabajo es SOLO analizar: no modifiques código, no crees ramas ni PRs.
+            Todo lo que publiques en comentarios debe estar en formato Markdown compatible con GitHub (GFM):
+            encabezados con `#`, listas con `-`, checklists con `- [ ]`, negritas con `**`, código en línea con
+            `` ` `` y bloques de código con ``` y lenguaje (por ejemplo ```js). Deja una línea en blanco entre
+            secciones, no uses HTML salvo el marcador `<!-- claude-triage -->` y no escapes los saltos de línea
+            (usa saltos de línea reales, nunca `\n` literales).
 
             Pasos:
             1. Lee el issue con `gh issue view ${{ github.event.issue.number }} --json title,body,labels,comments`.
